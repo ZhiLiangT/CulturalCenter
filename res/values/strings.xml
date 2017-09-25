@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CulturalCenter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="title_activity_dbtest">DBTestActivity</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+    <meta name="viewport" content=""/>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <title>FamilyAlbum</title>  
+      
+    <link rel="stylesheet" type="text/css" href="css/main.css"  media="all"/>  
+      
+<script type="text/javascript">  
+
+    function myFunction()  
+    {  
+        //document.getElementById("demo").innerHTML="My First JavaScript Function";  
+        var videos = document.getElementById('video');   
+        videos.loop = 'loop';  
+        videos.play();  
+          
+    }  
+</script>  
+</head>  
+
+  
+<body >  
+   <video id="video" class="video" controls="controls" playsinline x5-video-player-type="h5" x5-video-player-fullscreen="true">
+    	<source src="b.mp4" />
+	</video>
+  
+<button type="button" onclick="myFunction()">点击这里</button>  
+  
+<p id="demo">A Paragraph.</p>  
+  
+</body>  
+</html>  

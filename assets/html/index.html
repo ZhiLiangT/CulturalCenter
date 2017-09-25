@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+</head>
+<body>
+<a href="javascript:void(0);" onclick="omeng.close();">退出</a><br/>
+<a href="javascript:void(0);" onclick="openVideo();">播放网络视频</a><br/>
+<a href="api.html">更多接口</a><br/>
+<div>
+	<h1>功能描述</h1>
+	<p>点击【退出】，通过调用接口omeng.close()，将本画面关闭</p>
+	<p>点击【播放网络视频】，通过调用接口omeng.openVideo(url)将视频地址传递给后台，视频播放器打开</p>
+	<h1>代码如下</h1>
+<pre>
+&lt;a href="javascript:void(0);" onclick="omeng.close();"&gt;退出&lt;/a&gt;&lt;br/&gt;
+&lt;a href="javascript:void(0);" onclick="openVideo();"&gt;播放网络视频&lt;/a&gt;&lt;br/&gt;
+&lt;script type="text/javascript"&gt;
+function openVideo() {
+    omeng.openVideo("http://jlpt.img-cn-hangzhou.aliyuncs.com/cloud/ico/test/2017-03-01/1488359719148_dAA3KM6h.mp4");
+}
+&lt;/script&gt;
+</pre>
+</div>
+</body>
+<script type="text/javascript">
+function openVideo() {
+	omeng.openVideo("http://jlpt.img-cn-hangzhou.aliyuncs.com/cloud/ico/test/2017-03-01/1488359719148_dAA3KM6h.mp4");
+}
+</script>
+</html>
